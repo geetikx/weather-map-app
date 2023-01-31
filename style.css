@@ -1,0 +1,46 @@
+/* . for class  */
+.wrapper                      
+{
+    position: fixed;
+    bottom: 50px;
+    z-index: 1000;
+    right: 50px;
+    background-color: rgb(10, 3, 105);
+    padding: 5px;
+    border-radius: 5px;
+    color: aliceblue;
+}  
+
+ /* # for id */
+#n1,#n2                          
+{
+    padding: 5px;
+    border-radius: 5px;
+}
+#result
+{
+    border: 2px solid red;
+    border-radius: 5px;
+    height: 40px; 
+    width: 40px;
+
+}
+#btn_add:hover
+{
+    border-radius: 5px;
+    background-color:rgb(92, 29, 150);
+    color: rgb(225, 162, 246);
+}
+/* #cityname,#temperature,#mintemperature,#maxtemperature,#humidity,#pressure
+{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2px;
+    height: 20px;
+    width: 200px;
+} */
+#map 
+{ 
+    height: 100vh;     
+    /* view port height  */
+}
